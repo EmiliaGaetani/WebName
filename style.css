@@ -1,0 +1,373 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700px;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.grid-inicio {
+  text-align: center;
+  background: url(images/fondo5.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 0% 0% 30% 0%;
+  color: white;
+
+}
+
+.grid-inicio-item {
+  justify-content: center;
+}
+
+.grid-inicio-item img {
+  width: 5%;
+  margin-top: 5%;
+}
+
+header {
+  font-size: 100%;
+  background-color: #E3CCCC;
+  width: 100%;
+  text-align: center;
+}
+
+.logo {
+  font-size: 150%;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  color: black;
+
+}
+
+nav a {
+  color: #000000;
+  text-decoration: none;
+
+}
+
+nav {
+  text-align: center;
+  align-items: center;
+
+}
+
+.menu1 {
+  font-size: 150%;
+  text-align: center;
+}
+
+.menu2 {
+  font-size: 120%;
+  text-align: center;
+}
+
+.boton{
+  text-align: center;
+  padding: 0px 15px 0px 15px ;
+}
+
+
+body {
+  background-color: #FAF5F5;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+}
+
+.boton2{
+  background-color: #E3CCCC;
+  color: black;
+  font-size: 200%;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700px;
+  font-style: normal;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-around; 
+
+}
+
+.image-container img {
+  width: 100%; 
+  height: auto;
+  margin: 10px;
+  object-fit: fill;
+}
+
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px; 
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600px;
+  font-style: normal;
+}
+
+.button-container button {
+  background-color: #E3CCCC;
+  color: black;
+  font-size: 200%;
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  border-color: black;
+  cursor: pointer; 
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600px;
+  font-style: normal;
+}
+
+.button-container button:hover {
+  background-color: #C6B3B3;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 1.5%; 
+  width: 100%;
+}
+
+.grid-item {
+  text-align: center; 
+}
+
+.grid-item img {
+  width: 85%; 
+  margin-bottom: 5%;
+  object-fit: fill;
+  margin: 5%;
+}
+
+
+.boton2 {
+  background-color: #E3CCCC;
+  color: black;
+  font-size: 150%;
+  padding: 10px 20px; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  font-family: "Playfair Display", serif;
+  text-decoration-line: none;
+}
+
+.boton2:hover {
+  background-color: #C6B3B3; 
+}
+
+.boton:hover {
+  background-color: #C6B3B3 ;
+}
+
+footer{
+  background-color: #FAF5F5;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+
+}
+
+footer img{
+  width: 5%;
+
+}
+
+.botonfooter{
+  text-align: center;
+  border: none;
+  background-color: #FAF5F5;
+  padding: 0% 0%; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  font-family: "Playfair Display", serif;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.botonfooter:hover{
+  background-color:#C6B3B3;
+}
+
+.grid-brownie {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 15px; 
+  width: 100%;
+}
+
+.grid-brownie-images {
+  text-align: center; 
+}
+
+.grid-brownie-images img {
+  width: 85%; 
+  object-fit: fill;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+main {
+  text-align: center;
+  font-size: 200%;
+}
+
+.botoninicio {
+  font-size: 200%;
+  font-weight: bold;
+}
+
+.botoninicio:hover{
+  color: #FAF5F5;
+}
+
+.grid-recetas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 15px; 
+  width: 100%;
+}
+
+.grid-recetas-images {
+    text-align: center; 
+  }
+
+.grid-recetas-images img {
+  width: 85%; 
+  object-fit: fill;
+  margin-bottom: 20px;
+  margin-top: 20%;
+}
+
+.grid-favs {
+  text-align: center; 
+}
+
+.grid-favs img {
+  width: 85%; 
+  padding: 20px 0px 20px 0px;
+  object-fit: fill;
+
+}
+
+.grid-nosotras-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 15px; 
+  width: 100%;
+}
+
+.grid-nosotras-container {
+  text-align: center; 
+}
+
+.grid-nosotras-container img {
+  width: 85%; 
+  margin-bottom: 10px;
+  object-fit: fill;
+  margin: 10px
+
+}
+
+.grid-nosotras-texto {
+  padding: 100px;
+  background-color:#E3CCCC ;
+  margin: 5%;
+}
+
+.grid-nosotras-item {
+  background-color:#E3CCCC ;
+  margin: 5%;
+  align-items: center;
+  padding-top: 75px;
+}
+
+.grid-receta1{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  width: 98%;
+  margin: 2%;
+}
+
+.grid-receta-ing{
+  text-align: center;
+  background-color: #E3CCCC;
+  margin-bottom: 70%;
+  margin-right: 5%;
+  border-radius: 2.5%;
+}
+
+.grid-receta-images{
+  width: 90%;
+  justify-content: center;
+
+}
+
+.grid-receta2{
+  background-color: #E3CCCC;
+  margin: 0% 2.5%;
+  border: none; 
+  border-radius: 2.5%;
+}
+
+.grid-receta2-texto{
+  text-align: left;
+  padding: 0% 1.5% 0% 1.5%;
+  font-weight: normal;
+}
+
+.grid-receta2{
+  font-weight: bold;
+}
+
+.grid-receta4-ing{
+  text-align: center;
+  background-color: #E3CCCC;
+  margin-right: 5%;
+  border-radius: 2.5%;
+}
+
+.grid-receta4-images{
+  width: 90%;
+  justify-content: center;
+}
+
+.grid-receta5-ing{
+  text-align: center;
+  background-color: #E3CCCC;
+  margin-right: 5%;
+  border-radius: 2.5%;
+  margin-bottom: 45%;
+}
+
+.grid-receta5-images{
+  width: 90%;
+  justify-content: center;
+}
